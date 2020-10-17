@@ -1,0 +1,21 @@
+.header{
+  grid-area: h;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+  /*border-radius: 40px 40px 0 40px;*/
+  box-shadow: 1px 2px 4px 1px #00000033;
+  padding: 10px;
+    border-radius: 10px 10px;
+    overflow: hidden;
+    border: solid 1px #00000033;
+  
+  }
+  .header img{
+   
+   max-width: 60px;
+   overflow: hidden;
+   padding: 10px 0 0 10px;
+    
+  }
+  
