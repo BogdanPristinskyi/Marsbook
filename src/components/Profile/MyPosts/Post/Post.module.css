@@ -1,8 +1,10 @@
 
   .item{
     color: blue;
+    margin: 15px;
   }
   .item img{
     width: 60px;
     border-radius: 40px;
+    margin-right: 15px;
   }

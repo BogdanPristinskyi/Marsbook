@@ -9,7 +9,8 @@
     border-radius: 10px 10px;
     overflow: hidden;
     border: solid 1px #00000033;
-  
+    background: white;
+    color: palevioletred;
   }
   .header img{
    
