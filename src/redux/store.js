@@ -67,6 +67,5 @@ let store = {
 }
 
 //Action Creators
-
+window.store = store;
 export default store;
-window.state = store;
