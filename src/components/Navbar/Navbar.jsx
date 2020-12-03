@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import style from './Navbar.module.css'
-import Friends from './Friends/Friends'
+
 const Navbar =(props)=>{
  // let friends = props.friends.map(p => <Friends name={p.name} />)
     return <nav className={style.nav}>

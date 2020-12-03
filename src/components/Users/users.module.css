@@ -1,4 +1,26 @@
 .userPhoto {
-    width: 200px;
+    width: 100px;
     height: auto;
+    border-radius: 20px;
+    margin: 15px 0 0 15px;
+}
+.photoButtonBlock{
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.nameStatusLocationBlock{
+    padding: 5px 0 10px 30px;
+    align-items: flex-start;
+}
+
+.selectedPage{
+    font-weight: bold;
+}
+
+.userContainer{
+   border: 1px solid grey;
+   border-radius: 20px ;
+   margin-bottom: 10px;
+  display: flex;
+   
 }

@@ -1,16 +1,21 @@
-import React from 'react'
-import styles from './ProfileInfo.module.css'
+import React from "react";
+import Preloader from "../../common/Preloader/Preloader";
+import styles from "./ProfileInfo.module.css";
+import ProfileStatus from "./ProfileStatus";
+const ProfileInfo = (props) => {
+  if (!props.profile) {
+    return <Preloader />;
+  }
+  return (
+    <div>
+      {/* <div className={styles.main}><img src='https://scx2.b-cdn.net/gfx/news/hires/2018/spacexisgoin.jpg'></img> </div> */}
 
-const ProfileInfo = () => {
-    return <div>
-        <div className={styles.main}><img src='https://scx2.b-cdn.net/gfx/news/hires/2018/spacexisgoin.jpg'></img> </div>
-
-        <div className={styles.description}>
-            ava + description
-   </div>
-
+      <div className={styles.description}>
+        <img src={props.profile.photos.large} />
+        <ProfileStatus status={props.status} updateStatus={props.updateStatus} />
+      </div>
     </div>
+  );
+};
 
-}
-
-export default ProfileInfo
+export default ProfileInfo;
