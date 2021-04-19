@@ -1,0 +1,40 @@
+.header{
+  grid-area: h;
+  z-index: 100;
+
+  /* gap: 15rem;
+  grid-auto-flow: column;
+  border-radius: 40px 40px 0 40px;
+  box-shadow: 1px 2px 4px 1px #00000033;
+  padding: 10px;
+     border-radius: 10px 10px; 
+    overflow: hidden;
+    border: solid 1px #00000033;
+    background: white;
+    background: #100e17 */
+  }
+  /* h1{
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    text-shadow: none;
+  }
+  .header img{
+   
+   max-width: 75px;
+   max-height: 75px;
+   overflow: hidden;
+   padding: 10px 0 0 10px; 
+   border-radius: 50%;
+   background: linear-gradient(90deg,#ff8a00,#e52e71);
+  }
+  .loginBlock {
+    float: right;
+  }
+   */
+
+   .title {color:white;
+            text-decoration: none;
+    } 
